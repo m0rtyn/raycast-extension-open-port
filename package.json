@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "test-test",
-  "title": "test-test",
+  "name": "raycast-extension-open-port",
+  "title": "Open port",
   "description": "",
   "icon": "command-icon.png",
   "author": "m0rtyn",
@@ -9,9 +9,16 @@
   "commands": [
     {
       "name": "index",
-      "title": "Show Detail",
-      "description": "Template with a plain detail view",
-      "mode": "view"
+      "title": "Open port ... in Browser",
+      "description": "",
+      "mode": "view",
+      "arguments": [
+        {
+          "name": "port",
+          "type": "text",
+          "description": "Port to open in browser"
+        }
+      ]
     }
   ],
   "dependencies": {
